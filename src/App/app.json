@@ -1,0 +1,44 @@
+{
+    "type": "container",
+    "items": [
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "image",
+                    "className": "book-thumb",
+                    "alt": "placeholder image",
+                    "height": "100px",
+                    "src": "https://via.placeholder.com/100"
+                },
+				{
+                    "type": "rich-text",
+                    "textType": "html",
+                    "className": "book-desc",
+                    "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>"
+                }
+            ],
+            "className": "book-container"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "image",
+                    "className": "book-thumb",
+                    "alt": "placeholder image",
+                    "height": "100px",
+                    "src": "https://via.placeholder.com/100"
+                },
+                {
+                    "type": "rich-text",
+                    "textType": "html",
+                    "className": "book-desc",
+                    "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>"
+                }
+            ],
+            "className": "book-container"
+        }
+    ],
+    "className": "container"
+}
