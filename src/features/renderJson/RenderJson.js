@@ -9,13 +9,52 @@ const RenderJson = ({ obj }) => {
     const content = []
     switch (obj.type) {
         case 'container': {
-			const containerContent = []
-            for (const item of obj.items) {
-                containerContent.push(
-					<Container key={uuid()} obj={item} />
-				)
+            const {
+                items,
+                className,
+                flexDirection,
+                flexWrap,
+                justifyContent,
+                alignItems,
+                width: widthDecimal,
+            } = obj
+
+			const width = `${widthDecimal * 100}%`
+
+            const options = {
+                className,
+				style: {
+					flexDirection,
+					flexWrap,
+					justifyContent,
+					alignItems,
+					width,
+				},
             }
-			content.push(React.createElement('div', {key: uuid()}, containerContent))
+
+            const containerContent = []
+            for (const item of items) {
+                containerContent.push(<Container key={uuid()} obj={item} />)
+                // containerContent.push(React.createElement(
+				// 	'div',
+				// 	{
+				// 		key: uuid(),
+				// 		...options
+				// 	},
+				// 	<Container obj={item} />
+				// ))
+            }
+            content.push(
+                React.createElement(
+                    'div',
+                    {
+                        key: uuid(),
+                        ...options
+                    },
+                    containerContent
+                )
+            )
+
             break
         }
         case 'rich-text': {
@@ -25,9 +64,8 @@ const RenderJson = ({ obj }) => {
         case 'image': {
             content.push(
                 <Image
-					key={uuid()}
-                    src="https://via.placeholder.com/100"
-                    alt="placeholder"
+                    key={uuid()}
+                    options={obj}
                 />
             )
             break

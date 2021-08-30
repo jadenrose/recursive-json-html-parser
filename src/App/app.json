@@ -1,44 +1,695 @@
 {
-    "type": "container",
+	"type": "container",
     "items": [
         {
             "type": "container",
             "items": [
                 {
-                    "type": "image",
-                    "className": "book-thumb",
-                    "alt": "placeholder image",
-                    "height": "100px",
-                    "src": "https://via.placeholder.com/100"
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
                 },
-				{
-                    "type": "rich-text",
-                    "textType": "html",
-                    "className": "book-desc",
-                    "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>"
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
                 }
             ],
-            "className": "book-container"
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
         },
         {
             "type": "container",
             "items": [
                 {
-                    "type": "image",
-                    "className": "book-thumb",
-                    "alt": "placeholder image",
-                    "height": "100px",
-                    "src": "https://via.placeholder.com/100"
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
                 },
                 {
-                    "type": "rich-text",
-                    "textType": "html",
-                    "className": "book-desc",
-                    "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>"
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
                 }
             ],
-            "className": "book-container"
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
+        },
+        {
+            "type": "container",
+            "items": [
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "image",
+                            "className": "book-img",
+                            "alt": "picture of Stephen King's book titled Misery",
+                            "height": "300px",
+                            "src": "king.jpg"
+                        }
+                    ],
+					"className": "book-img-container",
+					"justifyContent": "center",
+					"width": 1
+                },
+                {
+                    "type": "container",
+                    "items": [
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-title",
+                            "text": "<h3>lorem ipsum dolor</h3>",
+                            "style": "uppercase"
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-desc",
+                            "text": "<p>lorem ipsum dolor sit amet consecteteur adipiscing elit</p>",
+                            "style": ""
+                        },
+                        {
+                            "type": "rich-text",
+                            "textType": "html",
+                            "className": "book-author",
+                            "text": "<p>Jane Doe</p>",
+                            "style": ""
+                        }
+                    ],
+                    "className": "book-info-container",
+                    "flexDirection": "column",
+                    "flexWrap": "no-wrap",
+                    "justifyContent": "center",
+                    "alignItems": "center",
+                    "width": 1
+                }
+            ],
+            "className": "book-container",
+            "flexDirection": "column",
+            "flexWrap": "no-wrap",
+            "justifyContent": "center",
+            "alignItems": "center"
         }
     ],
-    "className": "container"
+    "className": "container",
+    "flexDirection": "row",
+    "flexWrap": "wrap",
+    "justifyContent": "space-between",
+    "alignItems": "center",
+    "width": 0.9
 }

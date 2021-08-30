@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './app.css'
 import RenderJson from '../features/renderJson/RenderJson'
 
 const App = () => {
@@ -7,7 +8,11 @@ const App = () => {
 
     const content = RenderJson({ obj: json })
 
-    return <div className="App">{content}</div>
+    return (
+        <div className="App">
+            <main className="main">{content}</main>
+        </div>
+    )
 }
 
 export default App

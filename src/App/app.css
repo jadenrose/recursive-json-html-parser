@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin-top: 0;
+}
+
+.main {
+	padding-top: 8em;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+img {
+	position: relative;
+	display: block;
+	max-width: 100%;
+	align-self: center;
+}
+
+img:before {
+    content: ' ';
+    display: block;
+    height: 100px;
+    width: 100px;
+    background: url('https://via.placeholder.com/100?text=image+failed+to+load') center no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+
+.App div {
+	display: flex;
+}
+
+.book-container {
+	text-align: center;
+	width: 45%;
+}
+
+@media (min-width: 600px) {
+	.book-container {
+		width: 30%;
+	}
+}
